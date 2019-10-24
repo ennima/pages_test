@@ -1,84 +1,21 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Vue 1</title>
-	<meta charset="utf-8">
-</head>
-<body>
-
-	<main>
-
-		<hr>
-		<h1>Computado: {{nombreApellido}}</h1>
-
-		<h1>Listado de películas (array)</h1>
-		<ol>
-			<li v-for="pelicula in peliculasOrdenadas">{{pelicula}}</li>
-		</ol>
-
-		<hr>
-		<h1>Pelis</h1>
-		<ol>
-			<li v-for="(pelicula, index) in peliculas">{{pelicula}} <button @click="borrarPelicula(index)">Del Peli</button></li>
-		</ol>
-		<form @submit.prevent="crearPelicula()">
-			<input type="text" v-model="peliculaNueva">
-			<input type="submit" value="Guardar Peli">
-		</form>
-		<!-- <button v-on:click="crearPelicula()">Crear Peli</button>
-		<button @click="borrarPelicula()">Del Peli</button> -->
-
-
-
-		<hr/>
-		<!-- Interpolacion / imprimir el contenido de una variable del modelo / Instancia de VUE -->
-		<h1>{{ texto }}</h1>
-		<h2 v-text="texto"></h2>
-		<hr />
-
-		<!--  Two way data binding / Enlace de datos bidireccional -->
-		<input type="text" v-model="nombre">
-		<p>El nombre es: {{nombre}}</p>
-		<hr />
-		
-		<!-- Directivas condicionales v-if -->
-		<input type="number" v-model="nota">
-		<strong v-if="nota && nota >= 5 && nota <= 99"> Tu nota es mayor a 5 :)</strong>
-		<strong v-else-if="nota && nota >= 100"> Excelente</strong>
-		<span v-else>Has supendido :(</span>
-		<hr />
-
-		<!-- Directiva de bucles v-for -->
-		<h1>Listado de películas (array)</h1>
-		<ol>
-			<li v-for="pelicula in peliculas">{{pelicula}}</li>
-		</ol>
-
-
-		<h1>Listado de frutas (array de objetos)</h1>
-		<ul>
-			<li v-for="(fruta, index) in frutas">
-				{{index}}: {{fruta.nombre}} - {{fruta.temporada}}
-			</li>
-		</ul>
-
-		<h1>Listado de elementos de superfruta (Objeto)</h1>
-		<ul>
-			<li v-for="(value, key, index) in superfruta">
-				{{index}} <b>{{key}}:</b> {{value}}
-			</li>
-		</ul>
-		<hr />
-
-
-		
-
-	</main>
-
-	<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.0/vue.js"></script> -->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.8/vue.js"></script>
-	<script type="text/javascript" src="main.js"></script>
-	<script type="text/javascript"></script>
-
-</body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Virtualagoon - Digital Creative Studio</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./css/index.css"/>
+  </head>
+  <body>
+    <header></header>
+    <section>
+      <div class="content" data-tilt="data-tilt" data-tilt-max="20" data-tilt-speed="400" data-tilt-perspective="500"><img src="./assets/logo.svg" alt="Virtualagoon Logo"/>
+        <h1>Digital Creative Studio</h1>
+      </div>
+    </section>
+    <footer></footer>
+    <script src="./js/vendor/tilt.js"></script>
+  </body>
 </html>
