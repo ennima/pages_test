@@ -1,0 +1,128 @@
+
+#wrapper,
+.block-stl12 .owl-dots span:before,
+.main-header {
+	background: #fcfcfc;
+}
+
+/*             light color          */
+.main-nav .nav ul li a ,
+.top-side-block ul.list-unstyled li a ,
+.office-location p,
+.get-in-touch p,
+.play-intro-video p,
+.block-stl2 p,
+.block-stl12 .owl-dots,
+.block-stl6 .txt-block p,
+.block-stl6 .txt-block h2 small,
+.r-team-block .social-nav li a i:before,
+.block-stl7 .text-block p,
+.block-stl8 p,
+.form-block .form-group label,
+.block-stl9 p,
+.block-stl9 .social-nav li,
+.block-stl9 .social-nav li a,
+.form-block [type="radio"]:checked + label, 
+.form-block [type="radio"]:not(:checked) + label,
+.block-stl7 .text-block p,
+.block-stl10 .txt-block p,
+.block-stl10 .txt-block ul.list-unstyled li a,
+.form-block .form-group .form-control,
+.form-block .form-group .form-control,
+input.form-control:focus, textarea.form-control:focus,
+.block-stl12 .owl-dots:before {
+	color: #009873;
+}
+
+
+
+
+
+
+
+.block-stl12 .owl-dots span:after,
+.r-team-block .owl-dots .owl-dot span,
+.story .owl-dots .owl-dot span,
+.main-nav .nav ul li a:after {
+	background: #009873;
+}
+
+.block-stl12 .owl-dots span:before,
+.r-team-block .owl-dots .owl-dot,
+.story .owl-dots .owl-dot,
+.comments-block .form-block .form-group .form-control,
+input.form-control:focus, textarea.form-control:focus,
+.main-nav .nav ul li a:before {
+	border-color: #009873;
+}
+
+
+
+
+/*form clr */
+
+.form-block .form-group .form-control,
+input.form-control:focus, textarea.form-control:focus {
+	border-color: #072450;
+}
+
+.form-block .form-group .form-control {
+	color: #072450;
+}
+
+
+/*btn clr*/
+.btn1 {
+   background: #ffffff;
+}
+
+.form-block [type="radio"]:checked + label, .form-block [type="radio"]:not(:checked) + label {
+	background: #072450;
+}
+
+/*overlay color*/
+.services .overlay,
+.team-sec .overlay,
+.contact-sec .overlay {
+	background: #f0f0f0;
+}
+
+
+/* Place Holder CSS */
+input.form-control::-webkit-input-placeholder,textarea.form-control::-webkit-input-placeholder {
+  color: #b8283d;
+}
+input.form-control:-moz-placeholder,textarea.form-control:-moz-placeholder {
+  color: #b8283d;
+}
+input.form-control::-moz-placeholder,textarea.form-control::-moz-placeholder {
+  color: #b8283d;
+}
+input.form-control:-ms-input-placeholder,textarea.form-control:-ms-input-placeholder {  
+  color: #b8283d;
+}
+
+
+/* Place Holder CSS */
+.comments-block input.form-control::-webkit-input-placeholder,.comments-block  textarea.form-control::-webkit-input-placeholder {
+  color: #009873;
+}
+.comments-block input.form-control:-moz-placeholder,.comments-block  textarea.form-control:-moz-placeholder {
+  color: #009873;
+}
+.comments-block input.form-control::-moz-placeholder,.comments-block  textarea.form-control::-moz-placeholder {
+  color: #009873;
+}
+.comments-block input.form-control:-ms-input-placeholder,.comments-block  textarea.form-control:-ms-input-placeholder {  
+  color: #009873;
+}
+
+input.form-control:focus, textarea.form-control:focus {
+  border-color: #009873 !important;
+  color: #009873 !important;
+} 
+
+.block-stl4 .overlay-block .fixed-bg {
+  background-image: url('../images/dsn8.png') !important;
+}
+
